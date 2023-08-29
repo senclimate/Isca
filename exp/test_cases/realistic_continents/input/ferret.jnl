@@ -1,0 +1,10 @@
+ ! NOAA/PMEL TMAP
+ ! PyFerret v7.63 (optimized)
+ ! Linux 5.8.0-1040-azure - 09/02/21
+ ! 11-Mar-22 10:42     
+
+set mode verify
+use sst_clim_amip.nc
+show da
+SHADE SST_CLIM_AMIP[L=1]
+exit
